@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mplus: "M PLUS 1p", sans-serif;
+  /* --*: initial; */
+
+  --font-m-plus-1p: "M PLUS 1p", sans-serif;
+
+  --color-base: #f5f0e9;
+  --color-main: #fbe481;
+  --color-white: #ffffff;
+  --color-black: #333333;
+  --color-gray: #777777;
+  --color-yellow: #fbe481;
+  --color-red: #e6855e;
+
+  --font-sans: var(--font-m-plus-1p);
+
+  --spacing-0: 0px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-13: 52px;
+  --spacing-14: 56px;
+  --spacing-15: 60px;
+  --spacing-16: 64px;
+  --spacing-17: 68px;
+  --spacing-18: 72px;
+  --spacing-19: 76px;
+  --spacing-20: 80px;
+  --spacing-21: 84px;
+  --spacing-22: 88px;
+  --spacing-23: 92px;
+  --spacing-24: 96px;
+  --spacing-25: 100px;
+  --spacing-26: 104px;
+  --spacing-27: 108px;
+  --spacing-28: 112px;
+  --spacing-29: 116px;
+  --spacing-30: 120px;
+
+  --spacing-full: 100%;
+
+  /* radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 36px;
+  --radius-full: 9999px;
+
+  /* letter-spacing */
+  --tracking-2: 0.02em;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-base);
+  border-radius: 4px;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: var(--font-regular);
+  color: var(--color-black);
+}

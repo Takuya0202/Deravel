@@ -1,24 +1,10 @@
 services:
-  api:
-    container_name: back
-    build: ./back/
-    volumes:
-      - ./back:/back
-      - back_vendor:/back/vendor
-    ports:
-      - 8011:8000
-
   app:
-    container_name: front
-    build: ./front/
+    container_name: app
+    build: ./
     volumes:
-      - ./front:/front
-      - front_node_modules:/front/node_modules
+      - ./:/app
     ports:
-      - 3011:3000
-
-volumes:
-  back_vendor:
-    driver: local
-  front_node_modules:
-    driver: local
+      - 3020:3020
+    environment:
+      - PORT=3020

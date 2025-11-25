@@ -1,0 +1,201 @@
+{
+  "login": {
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "signInWithGoogle": "Sign in with Google",
+    "fetchFail": "Login failed.",
+    "fetchError": "Communication error occurred."
+  },
+  "register": {
+    "userName": "User name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "userNamePlaceholder": "User name",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "fetchFail": "User registration failed.",
+    "fetchError": "Communication error occurred."
+  },
+  "header": {
+    "articlesByCategory": "Articles by Category",
+    "categories": {
+      "food": "Food",
+      "cafe": "Cafe",
+      "culture": "Culture",
+      "guide": "Guide",
+      "shopping": "Shopping",
+      "stories": "Stories"
+    },
+    "newPosts": "New Posts",
+    "profile": "Profile"
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "home": {
+    "articleFirst": "A",
+    "articleSubTitle": "rticle",
+    "featuredFirst": "E",
+    "featuredSubTitle": "vents in Nagoya !!",
+    "rankingFirst": "R",
+    "rankingSubTitle": "anking",
+    "aboutText": "Nagoya's charm lies in its everyday culture—morning café traditions, local dishes, friendly neighborhoods, and a calm atmosphere."
+  },
+  "api-category": {
+    "food": "food",
+    "cafe": "cafe",
+    "culture": "culture",
+    "guide": "guide",
+    "shopping": "shopping",
+    "stories": "stories"
+  },
+  "post-create": {
+    "back": "Back",
+    "title": "Title",
+    "titlePlaceholder": "Please enter a title.",
+    "category": "Category",
+    "thumbnail": "Thumbnail",
+    "articleContent": "Article Content",
+    "uploading": "Uploading...",
+    "error": "Failed to retrieve post."
+  },
+  "categoryHead": {
+    "food": "Food",
+    "cafe": "Cafe",
+    "culture": "Culture",
+    "guide": "Guide",
+    "shopping": "Shopping",
+    "stories": "Stories"
+  },
+  "categoryDescription": {
+    "food": "Discover Nagoya's rich culinary scene. From hearty miso katsu to local specialties, explore the flavors that make this city a food lover's paradise.",
+    "cafe": "Explore Nagoya's vibrant cafe culture. From morning coffee traditions to stylish local cafes, find the perfect spot to relax and enjoy the city's atmosphere.",
+    "culture": "Immerse yourself in Nagoya's rich cultural heritage. Discover traditional crafts, historical sites, and the unique traditions that define this remarkable city.",
+    "guide": "Your complete guide to Nagoya. Find the best spots to visit, transportation tips, and everything you need to make the most of your time in this amazing city.",
+    "shopping": "Shop till you drop in Nagoya. From bustling shopping streets to modern malls, discover the best places to find unique souvenirs and local treasures.",
+    "stories": "Read inspiring stories from Nagoya. Personal experiences, local insights, and memorable moments shared by people who call this city home."
+  },
+  "CategoryPage": {
+    "noPosts": "No posts found in this category.",
+    "article": "article",
+    "food": {
+      "q1": "What are the must-try dishes in Nagoya?",
+      "a1": "Nagoya is famous for hitsumabushi (grilled eel), miso katsu, tebasaki (chicken wings), and kishimen noodles. These dishes represent the hearty and flavorful local cuisine.",
+      "q2": "Where can I find the best miso katsu in Nagoya?",
+      "a2": "Yabaton is the most famous restaurant for miso katsu in Nagoya. There are several locations throughout the city, and it's a must-visit for food lovers.",
+      "q3": "What is hitsumabushi?",
+      "a3": "Hitsumabushi is a Nagoya specialty dish featuring grilled eel served over rice. You can enjoy it in three ways: plain, with condiments, or as ochazuke (with tea)."
+    },
+    "cafe": {
+      "q1": "What makes Nagoya's cafe culture unique?",
+      "a1": "Nagoya has a strong morning service culture where cafes offer breakfast sets with coffee. Many cafes open early and provide a cozy atmosphere for starting your day.",
+      "q2": "Are there any famous cafe chains in Nagoya?",
+      "a2": "Komeda Coffee is a famous Nagoya-born chain known for its morning service. You can enjoy toast, hard-boiled eggs, and salad with your coffee in the morning.",
+      "q3": "What time do cafes typically open in Nagoya?",
+      "a3": "Many cafes in Nagoya open around 7-8 AM to serve the morning service crowd. This early opening culture is unique to the Nagoya area."
+    },
+    "culture": {
+      "q1": "What traditional crafts is Nagoya known for?",
+      "a1": "Nagoya is famous for Arimatsu shibori (tie-dyeing), Seto pottery, and traditional Japanese paper. These crafts have been passed down for generations.",
+      "q2": "Are there any historical sites to visit in Nagoya?",
+      "a2": "Nagoya Castle, Atsuta Shrine, and Tokugawa Art Museum are must-visit historical sites. They showcase the rich history and culture of the region.",
+      "q3": "What festivals are held in Nagoya?",
+      "a3": "The Nagoya Festival in October and the Atsuta Festival are major cultural events. These festivals feature traditional performances and local customs."
+    },
+    "guide": {
+      "q1": "What is the best way to get around Nagoya?",
+      "a1": "Nagoya has an efficient subway and bus system. The subway connects major areas, and day passes are available for tourists. Bicycles are also popular for short distances.",
+      "q2": "What are the must-visit areas in Nagoya?",
+      "a2": "Sakae, Osu, and Nagoya Station areas are the main districts. Sakae is the shopping and entertainment hub, while Osu offers a mix of traditional and modern culture.",
+      "q3": "Is Nagoya easy to navigate for tourists?",
+      "a3": "Yes, Nagoya is tourist-friendly with English signage at major stations and tourist information centers. The subway system is straightforward and easy to use."
+    },
+    "shopping": {
+      "q1": "Where are the best shopping areas in Nagoya?",
+      "a1": "Sakae district is the main shopping area with large department stores and shopping malls. Osu Shopping Arcade offers a more traditional shopping experience with local goods.",
+      "q2": "What souvenirs should I buy in Nagoya?",
+      "a2": "Popular souvenirs include miso-flavored snacks, Arimatsu shibori products, and local sake. Food items like tenmusu (rice balls) and kishimen noodles are also great gifts.",
+      "q3": "Are there any outlet malls near Nagoya?",
+      "a3": "Yes, there are several outlet malls within an hour's drive, including Mitsui Outlet Park Jazz Dream Nagashima and Gotemba Premium Outlets."
+    },
+    "stories": {
+      "q1": "What makes Nagoya unique compared to other Japanese cities?",
+      "a1": "Nagoya combines industrial innovation with traditional culture. It's less touristy than Tokyo or Kyoto, offering an authentic Japanese experience with friendly locals and a relaxed atmosphere.",
+      "q2": "What do locals love about Nagoya?",
+      "a2": "Locals appreciate the city's balance of modern convenience and traditional values. The food culture, friendly community, and easy access to nature make it a great place to live.",
+      "q3": "Are there any hidden gems in Nagoya?",
+      "a3": "The Osu Kannon area, Arimatsu district, and local izakayas in the backstreets are hidden gems. These places offer authentic experiences away from the main tourist spots."
+    }
+  },
+  "api-register": {
+    "success": "User registration succeeded.",
+    "error": "User registration failed.",
+    "validationError": "Invalid data."
+  },
+  "api-login": {
+    "success": "Login succeeded.",
+    "error": "Login failed.",
+    "validationError": "Invalid data."
+  },
+  "api-post": {
+    "success": "success to create post",
+    "error": "failed to create post"
+  },
+  "api-detail": {
+    "success": "Successfully retrieved the article.",
+    "error": "Failed to retrieve the article."
+  },
+  "api-popular": {
+    "success": "Successfully retrieved popular articles by category.",
+    "error": "Failed to retrieve popular articles by category."
+  },
+  "api-profile": {
+    "success": "Successfully retrieved profile.",
+    "error": "Failed to retrieve profile."
+  },
+  "api-post-edit": {
+    "success": "Post retrieved successfully.",
+    "error": "Failed to retrieve post."
+  },
+  "api-post-update": {
+    "success": "Post updated successfully.",
+    "error": "Failed to update post.",
+    "validationError": "This post is invalid."
+  },
+  "api-post-delete": {
+    "success": "Post deleted successfully.",
+    "error": "Failed to delete post.",
+    "notFound": "Post to delete not found."
+  },
+  "api-post-upload": {
+    "success": "Image uploaded successfully.",
+    "error": "Failed to upload image.",
+    "validationError": "This image cannot be uploaded."
+  },
+  "api-posts-user": {
+    "success": "User posts retrieved successfully.",
+    "error": "Failed to retrieve user posts.",
+    "notFound": "User posts not found."
+  },
+  "ProfilePage": {
+    "article": "article"
+  },
+  "Logout": {
+    "logout": "Logout"
+  },
+  "PostPage": {
+    "ranking": "Ranking"
+  },
+  "UseUserProfile": {
+    "userProfile": "User Profile"
+  }
+}
