@@ -1,6 +1,6 @@
 "use client";
 
-import { getUser } from "@/app/api-client/user"
+import { getUser } from "@/app/api-client/user";
 import BackButton from "./backButton";
 import { UploadButton } from "@/app/components/shared/uploadButton";
 import InputTitle from "./input-title";

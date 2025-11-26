@@ -36,5 +36,5 @@ export default function EditPostPage({ params }: PageProps) {
     <div className="h-screen">
       <EditForm post={data.post} />
     </div>
-  )
+  );
 }

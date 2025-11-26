@@ -10,7 +10,6 @@ export async function getRankingPosts(days: number) {
       return data.posts as RankingPostResponse[];
     }
 
-
     console.error("Unexpected API response format:", data);
     return [];
   } catch (error) {

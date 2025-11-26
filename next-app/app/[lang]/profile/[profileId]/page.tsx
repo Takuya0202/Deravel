@@ -35,12 +35,12 @@ export default async function ProfilePage({ params, searchParams }: ProfilePageP
   const res = await getUserPosts({ profileId, offset });
   const posts: PostCardData[] = res.success
     ? res.posts.map((post) => ({
-      id: post.id,
-      title: post.title,
-      thumbnail: post.thumbnail,
-      date: post.date,
-      author: post.author,
-    }))
+        id: post.id,
+        title: post.title,
+        thumbnail: post.thumbnail,
+        date: post.date,
+        author: post.author,
+      }))
     : [];
   totalCount = res.totalCount;
 

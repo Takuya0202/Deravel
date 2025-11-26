@@ -77,7 +77,10 @@ export default function EditForm({ post }: EditFormProps) {
     }
   };
   return (
-    <form className="w-[80%] mx-auto h-screen flex flex-col pb-10" onSubmit={handleSubmit(onsubmit)}>
+    <form
+      className="w-[80%] mx-auto h-screen flex flex-col pb-10"
+      onSubmit={handleSubmit(onsubmit)}
+    >
       <div className="flex items-center justify-between mb-5 shrink-0">
         <BackButton />
         <UploadButton />

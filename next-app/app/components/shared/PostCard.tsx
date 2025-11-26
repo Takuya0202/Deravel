@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { cn } from "@/lib/utiles";
 import { Link } from "@/i18n/routing";
