@@ -16,7 +16,6 @@ export const ArticleList = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>("food");
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
-
   useEffect(() => {
     const fetchPosts = async () => {
       setIsLoading(true);

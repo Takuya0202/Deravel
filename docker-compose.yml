@@ -4,11 +4,7 @@ services:
     build: ./
     volumes:
       - ./:/app
-      - nextjs_cache:/app/next-app/.next  # .nextを別ボリュームに
     ports:
       - 3020:3020
     environment:
       - PORT=3020
-
-volumes:
-  nextjs_cache:

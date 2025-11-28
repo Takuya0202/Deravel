@@ -24,7 +24,7 @@ export async function GET(request: Request) {
           },
         },
         language: {
-          name: languCode, // ← ココが正解！
+          name: languCode,
         },
       },
       select: {
@@ -38,11 +38,13 @@ export async function GET(request: Request) {
           },
         },
       },
-      orderBy: {
-        views: {
-          _count: "desc",
+      orderBy: [
+        {
+          views: {
+            _count: "desc",
+          },
         },
-      },
+      ],
       take: 10,
     });
     const res = rankingPosts.map((post) => ({
@@ -60,6 +62,7 @@ export async function GET(request: Request) {
       { status: 200 }
     );
   } catch (e: unknown) {
+    console.error("Error in ranking API:", e);
     const message = e instanceof Error ? e.message : "エラーが発生しました";
     return Response.json({ success: false, message }, { status: 500 });
   }
